@@ -1,0 +1,41 @@
+.colores {
+    color: chocolate
+}
+
+.color-hexadecimal {
+    color: #20c51a
+}
+
+.color-rgb {
+    color: rgb(100, 0, 200)
+}
+
+.color-rgba {
+    color: rgba(10, 300, 50, 0.4)
+}
+
+.fondo {
+    background-color: brown;
+    background-image: url("https://images.pexels.com/photos/6985003/pexels-photo-6985003.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-position: center, center;
+}
+
+.ancho {
+    background-color: blueviolet;
+    width: 100px;
+}
+
+.alto {
+    background-color: rgb(100, 0, 200);
+    height: 100px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: rgb(150, 150, 200);
+    border-width: 1px;
+/*  border-top: none; */
+    padding: 10px, 20px;
+    margin: 10px;
+    
+}

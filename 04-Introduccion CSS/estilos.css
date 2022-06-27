@@ -1,0 +1,23 @@
+h1 {
+    color: slateblue;
+}
+/* Probando colores */
+p{
+    color: darkblue;
+    font-size: 16pt;
+}
+
+#aid {
+    color: red;
+    font-size: 19pt;
+}
+
+#oud {
+    color: mediumvioletred;
+    font-size: 15pt;
+}
+
+.violetas {
+    color: aquamarine;
+    text-transform: uppercase;
+}
