@@ -1,0 +1,13 @@
+.contenedor {
+    height: 100px;
+    width: 300;
+    background-color: aqua;
+}
+
+span.frase {
+    font-style: italic;
+}
+
+span.frase::first-letter {
+    font-size: xx-large;
+}
