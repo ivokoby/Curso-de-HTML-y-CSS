@@ -1,0 +1,41 @@
+.nasus {
+    width: 400px;
+    height: 400px;
+    background-color: blue ;
+}
+
+.ornn {
+    width:50%;
+    height: 50%;
+    background-color: coral;
+    /*transition: all 150ms ease-in;*/
+    animation: traslacion 2s infinite forwards;
+}
+
+/*.nasus:hover .ornn{
+    transform: translateX(100%);
+    background-color: blueviolet;
+}*/
+
+@keyframes traslacion {
+    0% {
+        background-color: coral;
+        transform: translateX(0%) translateY(0%);
+    }
+    25% {
+        background-color: rgb(214, 122, 89);
+        transform: translateX(100%) translateY(0%);
+    }
+    50% {
+        background-color: rgb(83, 40, 24);
+        transform: translateX(100%) translateY(100%);
+    }
+    75% {
+        background-color: rgb(71, 54, 47);
+        transform: translateX(0%) translateY(100%);
+    }
+    100% {
+        background-color: rgb(0, 0, 0);
+        transform: translateX(0%) translateY(0%);
+    }
+}
