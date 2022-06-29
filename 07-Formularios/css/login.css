@@ -1,0 +1,172 @@
+* {
+    background-color: #161717;
+    color: white;
+}
+
+.container {
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 450px;
+}
+
+.googleBtn {
+    background-color: #1A73E8;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.googleBtn picture {
+    width: 30px;
+    background-color: white;
+    height: 34px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botones {
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.googleBtn span {
+    color: white;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.googleBtn picture img {
+    width: 75%;
+}
+
+.googleBtn:hover {
+    opacity: 0.75;
+}
+
+.twitter {
+    color: white;
+    background-color: aqua;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.twitter:hover {
+    background-color: rgb(6, 201, 201);
+    opacity: 75%;
+}
+
+.separator {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+}
+
+.separator hr {
+    flex-grow: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.separator span {
+    color: #8b8b8b;
+}
+
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+}
+
+.section {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.section label input {
+    width: 80%;
+    background-color: #212121;
+    border: solid 1px transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    color: white;
+}
+
+label input {
+    width: 90%;
+    background-color: #212121;
+    border: solid 1px transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14pt;
+    transition: background-color 0.2s, border 0.2s, box-shadow 0.2s;
+    color: white;
+}
+
+label span {
+    font-weight: 700;
+}
+
+label input:hover {
+    background-color: #454045;
+    border: solid 1px #f3f3f3;
+    box-shadow: 0 0 4px #997c7c;
+}
+
+label input:focus {
+    background-color: #454045;
+    border: solid 1px #f3f3f3;
+    box-shadow: 0 0 4px #997c7c;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox input[type="checkbox"] {
+    width: 20px;
+}
+
+.checkbox span {
+    font-weight: 400;
+}
+
+.crear {
+    background-color: #EA4C89;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14pt;
+    cursor: pointer;
+}
+
+.crear:hover {
+    opacity: 75%;
+}
