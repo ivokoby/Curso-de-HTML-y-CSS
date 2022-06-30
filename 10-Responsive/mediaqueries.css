@@ -1,0 +1,21 @@
+h1 {
+    color:violet;
+    font-size: 4rem;
+}
+
+p {
+    color: blue;
+    font-size: 2rem;
+}
+
+@media print and (max-width: 576px) {
+    h1 {
+        color: blue;
+    }
+}
+
+@media (orientation: landscape) and (min-height: 400px) {
+    p{
+        color: red;
+    }
+}
